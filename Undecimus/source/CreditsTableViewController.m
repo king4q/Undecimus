@@ -114,4 +114,8 @@
     [[UIApplication sharedApplication] openURL:[CreditsTableViewController getURLForUserName:@"saurik"] options:@{} completionHandler:nil];
 }
 
+-(IBAction)tappedOnKing4q:(id)sender{
+    [[UIApplication sharedApplication] openURL:[CreditsTableViewController getURLForUserName:@"king4q1"] options:@{} completionHandler:nil];
+}
+
 @end
